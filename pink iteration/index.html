@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Celene Chen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Celene Chen</td>
+                <td id="navigation">
+		    <a href="#bio">About</a>
+		    <a href="#experience">Experience</a>
+                    <a href="#work">Project</a>
+                    <a href="">Blog</a>
+                    <a href="#contact">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Mechatronics Engineering Student</h1>
+                <button class="btn_one">Resume</button><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                        <td class="animated zoomIn" style="animation-delay:3.0s;"><a class="social"><i class="fab fa-medium"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+
+
+
+    <div id="bio">
+        <h1>About</h1>
+        <p>Hello! I am Celene and thank you for visiting my site! This website is my personal collection of my achievements and projects and it will help me to realize how far I have reached. I am passionate about designing and building interdisciplinary engineering solutions in a hands-on environment, and look to further my abilities at a system level while improving my software scripting capabilities.</p>
+	<p>I am currently seeking full-time opportunities starting June 2020.</p>
+    </div>
+
+
+    <!-- 
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+-->
+    <div id="experience">
+	<h1>Experience</h1>
+
+    </div>
+
+<!--
+        <div id="experience-timeline">
+            <div data-date="January 2019 – Present">
+                <h3>WATonomous</h3>
+                <h4>Software Developer (Perception)</h4>
+                <p>
+• Camera Calibration: Image rectifications, perspective transform,
+depth map development, intrinsic calibration in OpenCV-Python
+• Lane Detection: Detecting and tracking stop line (Ongoing)
+                </p>
+            </div>
+
+            <div data-date="May 2019 – August 2019">
+                <h3>Taymer International Inc.</h3>
+                <h4>Machine Vision Systems Designer</h4>
+                <p>
+• Developed a multi-camera system on the NVIDIA Jetson TX2 in C++
+and GUI via Qt in embedded Linux environment
+• Evaluated and optimized the real-time performance of algorithms and
+identified bottlenecks for hardware performance and testing
+• Interfaced common hardware protocols (GPIO, I2C, SPI) for camera
+synchronization and external encoder implementation
+• Multi-threaded C++ development
+                </p>
+            </div>
+
+            <div data-date="September 2018 – December 2018">
+                <h3>ATS Automation Tooling Systems</h3>
+                <h4>Software Developer</h4>
+                <p>
+• Designed data models to visualize KPIs used by senior executives for
+management decisions and forecasting tool
+• Sped up daily reconciliation report from 40 minutes to 2 minutes
+through improved algorithms and new tools in Java and VBA scripts
+• Built a web scraping tool to pull data from existing websites for
+further data manipulation
+                </p>
+            </div>
+        </div>
+    </div>
+
+-->
+<!--
+    </div>
+-->
+
+
+    <div id="work">
+        <h1>Projects</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549366021-9f761d450615?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=650&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549309019-a1d77aeae74f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1545342084-d03fe58ea023?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80">
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div id="contact">
+        <h1>Contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; +1 234 567 8910</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; yourname@email.com</td>
+                                </tr>
+                                 <tr>
+                                    <td><i class="fas fa-fax"></i> &nbsp; +1 234 567 8910</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        Street 123,<br>
+                                        blah blah city,<br>
+                                        blah blah country
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a class="social"><i class="fab fa-facebook"></i></a>
+                                        <a class="social"><i class="fab fa-twitter"></i></a>
+                                        <a class="social"><i class="fab fa-instagram"></i></a>
+                                        <a class="social"><i class="fab fa-dribbble"></i></a>
+                                        <a class="social"><i class="fab fa-medium"></i></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+        made on earth by a human <br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
