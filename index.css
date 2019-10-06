@@ -207,6 +207,14 @@ header table {
     width:8%;
 }
 
+#experience h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:8%;
+}
+
+
+<!--
 #experience-timeline>div p{
     color:#74808a;
     font-size:0.9em;
@@ -296,7 +304,7 @@ header table {
 	font-weight:300;
 	color:#374054
 }
-
+-->
 #contact {
     width:92vw;
     padding:6vh 4vw;
