@@ -1,6 +1,10 @@
 # Portfolio Website.
 Web Portfolio to showcase projects and skills in better manner. 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0a81663a8450bdbad25f6b4b1561743d52191ba5
 ###### https://vinaysomawat.github.io/
 
 ![Image](https://github.com/vinaysomawat/vinaysomawat.github.io/blob/master/web-dev/images/portfolio.png)
